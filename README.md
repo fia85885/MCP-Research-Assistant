@@ -28,14 +28,22 @@ This project integrates **OpenAI embeddings**, **ChromaDB**, and **MCP tooling**
 ## 📂 Project Structure
 
 ```
-├── server.py          # Main MCP server (FastMCP)
-├── embeddings.py      # Embeddings wrapper (OpenAI API)
-├── vectorstore.py     # ChromaDB vector store wrapper
-├── pdf_ingest.py      # PDF fetching, text extraction, chunking & ingestion
-├── arxiv_conn.py      # arXiv API connector
-├── websearch.py       # Tavily / DuckDuckGo web search connector
-├── citations.py       # Crossref citation builder
-└── requirements.txt   # Dependencies
+├── mcp_server/
+│   ├── __init__.py
+│   ├── server.py
+│   ├── embeddings.py
+│   ├── vectorstore.py
+│   ├── citations.py
+│   ├──ingest/
+|       ├── pdf_ingest.py
+│   └── connectors/
+│       ├── __init__.py
+│       └── arxiv_conn.py
+│
+├── data/
+├── config.json
+└── requirements.txt
+
 ```
 
 ---
