@@ -1,0 +1,9 @@
+{
+  "chromadb_path": "chroma",
+  "embedding_backend": "openai",
+  "embedding_model": "text-embedding-3-small",
+  "collection_name": "papers",
+  "download_dir": "data/papers",
+  "http_timeout_s": 30,
+  "http_user_agent": "mcp-research-assistant/0.1"
+}
