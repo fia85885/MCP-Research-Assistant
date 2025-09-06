@@ -1,9 +1,3 @@
-Got it ✅ I’ll create a **complete README.md (Markdown) for your GitHub repo** based on the project files you uploaded. This will look professional and explain the purpose, setup, and usage clearly.
-
-Here’s the draft:
-
----
-
 # 📚 MCP Research Assistant
 
 An AI-powered **research assistant** built on the **Model Context Protocol (MCP)**.
